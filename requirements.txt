@@ -1,0 +1,8 @@
+django
+djangorestframework
+streamlit
+langgraph
+langchain
+openai
+psycopg2-binary
+requests
