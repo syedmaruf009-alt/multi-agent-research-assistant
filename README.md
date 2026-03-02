@@ -7,7 +7,7 @@ A Research assistant using:
 2. Mock MCP (Model Context Protocol) tool
 3. Django REST API as backend
 4. Streamlit UI as frontend
-5. Database to store conversations (SQLLite)
+5. Database to store conversations (SQLite)
 
 The goal is to demonstrate agent collaboration, tool usage via MCP, and a basic full-stack setup.
 
