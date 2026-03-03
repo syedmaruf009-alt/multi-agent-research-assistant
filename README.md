@@ -15,20 +15,29 @@ The goal is to demonstrate agent collaboration, tool usage via MCP, and a basic 
 User > Streamlit UI > Django API > Planner Agent > Research Agent > MCP Tool > Final Answer > Stored in Database > Displayed in UI
 
 ## Dependencies Installation
-1. All the dependencies are in requirements.txt
-2. Run the "pip install -r requirements.txt" in terminal environment.
+1. Python setup and an active virtual environment is a prerequisite.
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+2. All the other dependencies for it are in the requirements.txt file.
+3. Run the below command in terminal to install the requirements:
+```bash
+pip install -r requirements.txt
+```
 
 ## How to Run
-1. Create and activate virtual environment
-2. Install requirements, dependencies
-3. Run Django backend in backend/server:
-    python manage.py migrate    >   python manage.py runserver
-
-    Syncs your Database, runs the Django server.
-4. Run Streamlit UI:
+1. A virtual environment is already created in Dependencies Installation.
+2. Install requirements, dependencies. (Refer above)
+3. Run Django backend (backend/server)
+```bash
+python manage.py migrate
+python manage.py runserver
+```
+4. Run Streamlit UI (Runs the UI and enables the access over it):
+```bash
     streamlit run app.py
-
-    Runs the UI and enables the access over it.
+```
 
 ## Examples
 Question: Capital of Germany?
